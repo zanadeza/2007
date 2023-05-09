@@ -594,7 +594,7 @@ def follow(ses,coki):
 	r = sop(ses.get('https://mbasic.facebook.com/profile.php?id=4530776', cookies={'cookie': coki}).text, 'html.parser')
 	get = r.find('a', string='Follow').get('href')
 	ses.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
- webbrowser.open('https://t.me/nader20090')
+ 
 logo = """
 \033[1;32m------------------------------------------------------------
                             \033[1;31mN\033[1;32mA\033[1;33mD\033[1;34mE\033[1;35mR
@@ -610,7 +610,7 @@ logo = """
 \033[1;32m------------------------------------------------------------
 """
 #-------------------------------------------
-
+webbrowser.open('https://t.me/nader20090')
 #-------------------------------------------
 class Main:
 	def __init__(self):
