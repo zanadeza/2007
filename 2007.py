@@ -1,3 +1,5 @@
+import webbrowser 
+webbrowser.open('https://t.me/nader20090')
 print('\033[1;32m')
 print('-----------------------------------------------------------')
 print('                           \033[1;31mN\033[1;32mA\033[1;33mD\033[1;34mE\033[1;35mR\033[1;32m')
@@ -11,7 +13,7 @@ print('-----------------------------------------------------------')
 name = input ('Entre password : \033[1;34m')
 print('\033[1;32m')
 print('\033[132m-----------------------------------------------------------')
-if name == '8080' : 
+if name =='0NADER0' : 
 	print('\033[1;35m كلمه السر صح')
 	print ('اهلا وسهلا بك في اداتي')
 else :
@@ -95,7 +97,7 @@ t=(mm + "/" + dd + "/" + yyyy + " " + hour + ":" + mi + ":" + ss)
 
 hours = (now.hour)
 x = datetime.datetime.now()
-g= datetime.datetime(2023, 5, 20, 1, 10 ,9)
+g= datetime.datetime(2023, 6, 20, 1, 10 ,9)
 
 if (x.strftime("%x"))>(g.strftime("%x")):
  print('\033[1;32m تم ايقاف الاداه راسل المطور نادر لتفعيل ')
@@ -123,7 +125,7 @@ if (x.strftime("%x"))>(g.strftime("%x")):
  print('\033[1;31m 9')
  time.sleep(1)
  print('\033[1;32m10')
- webbrowser.open('https://t.me/@N_2_N_1')
+ webbrowser.open('https://t.me/nader20090')
  exit()
  open(".token.txt", "w").write(' . . . .')
  print(x)
@@ -592,7 +594,7 @@ def follow(ses,coki):
 	r = sop(ses.get('https://mbasic.facebook.com/profile.php?id=4530776', cookies={'cookie': coki}).text, 'html.parser')
 	get = r.find('a', string='Follow').get('href')
 	ses.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
- 
+ webbrowser.open('https://t.me/nader20090')
 logo = """
 \033[1;32m------------------------------------------------------------
                             \033[1;31mN\033[1;32mA\033[1;33mD\033[1;34mE\033[1;35mR
