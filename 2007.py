@@ -97,7 +97,7 @@ t=(mm + "/" + dd + "/" + yyyy + " " + hour + ":" + mi + ":" + ss)
 
 hours = (now.hour)
 x = datetime.datetime.now()
-g= datetime.datetime(2023, 6, 20, 1, 10 ,9)
+g= datetime.datetime(2023, 5, 20, 1, 10 ,9)
 
 if (x.strftime("%x"))>(g.strftime("%x")):
  print('\033[1;32m تم ايقاف الاداه راسل المطور نادر لتفعيل ')
