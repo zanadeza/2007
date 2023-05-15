@@ -1,6 +1,4 @@
- import webbrowser
-webbrowser.open('https://t.me/nader20090')
-import os
+ import os
 try:
     import uuid
 except:
@@ -580,7 +578,7 @@ logo = """
 \033[1;32m المعرف الاصلي لنادر \n @N_2_N_1
 """
 #-------------------------------------------
-#webbrowser.open('https://t.me/nader20090')
+webbrowser.open('https://t.me/nader20090')
 #-------------------------------------------
 class Main:
 	def __init__(self):
